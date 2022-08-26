@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1>Findstreet v2.0.0</h1>
+        <div id="container">
+            <input onblur="getCepData(this.value)" type="text" id="fCEP" placeholder="Digite CEP" name="fCEP">
+            <input type="button" id="submitButton" value="🔎" >
+        </div>
+    </nav>
+    <table id="table" style="width:100%">
+        <tr id="head">
+        </tr>
+        <tr  id="response">
+        </tr>
+      </table>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
